@@ -1,0 +1,11 @@
+name = "kft-website"
+compatibility_date = "2024-01-01"
+
+[env.production]
+name = "kft-website"
+
+[[env.production.vars]]
+EMAILJS_SERVICE_ID = ""
+EMAILJS_TEMPLATE_ID = ""
+EMAILJS_PUBLIC_KEY = ""
+EMAIL_ADDRESS = "mykjcs2023@gmail.com"

@@ -128,7 +128,7 @@ export default function ContactPage() {
         <div className="text-center mb-12">
           <div className="w-20 h-20 mx-auto mb-6">
             <img
-              src="/kft-logo-official.png"
+              src="/images/kft-logo-new.png"
               alt="KFT Official Logo"
               className="w-full h-full object-contain drop-shadow-lg"
             />

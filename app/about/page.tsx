@@ -9,7 +9,7 @@ export default function AboutPage() {
         <div className="text-center mb-16">
           <div className="w-32 h-32 mx-auto mb-6">
             <img
-              src="/kft-logo-official.png"
+              src="/images/kft-logo-new.png"
               alt="KFT Official Logo"
               className="w-full h-full object-contain drop-shadow-lg"
             />

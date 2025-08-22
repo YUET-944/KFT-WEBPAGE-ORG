@@ -14,16 +14,16 @@ export function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
-            <div className="w-12 h-12">
+            <div className="w-14 h-14 flex-shrink-0">
               <img
                 src="/images/kft-logo-new.png"
                 alt="KFT Logo - Khegarha Falahi Tanzeem"
-                className="w-full h-full object-contain"
+                className="w-full h-full object-contain drop-shadow-sm"
               />
             </div>
             <div className="hidden sm:block">
-              <div className="font-bold text-lg text-green-600">K.F.T</div>
-              <div className="text-xs text-gray-500 leading-none">Khegarha Falahi Tanzeem</div>
+              <div className="font-bold text-xl text-green-600">K.F.T</div>
+              <div className="text-sm text-gray-600 leading-tight font-medium">Khegarha Falahi Tanzeem</div>
             </div>
           </Link>
 
@@ -114,6 +114,15 @@ export function Header() {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="lg:hidden py-4 border-t border-gray-100 bg-white">
+            <div className="flex items-center justify-center space-x-3 pb-4 mb-4 border-b border-gray-100">
+              <div className="w-10 h-10">
+                <img src="/images/kft-logo-new.png" alt="KFT Logo" className="w-full h-full object-contain" />
+              </div>
+              <div>
+                <div className="font-bold text-lg text-green-600">K.F.T</div>
+                <div className="text-xs text-gray-500 leading-none">Khegarha Falahi Tanzeem</div>
+              </div>
+            </div>
             <nav className="flex flex-col space-y-4">
               <Link
                 href="/"
